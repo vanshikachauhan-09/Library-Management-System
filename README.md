@@ -4,9 +4,7 @@ This is a simple C++ project for managing a library through a menu in the termin
 ## Files
 | File | Purpose |
 |---|---|
-| `library.h` | Contains the `Book`, `Member` and `Record` structures and the `Library` class |
-| `library.cpp` | Contains the functions used to manage the library |
-| `main.cpp` | Displays the menu and handles user input |
+| `task3.cpp` | Contains the functions used to manage the library |
 | `books.txt` | Contains 10 sample books |
 | `members.txt` | Contains 2 sample members |
 | `records.txt` | Stores book issue and return details (initially empty) |
@@ -60,7 +58,6 @@ The program uses `|` to separate fields in the text files.
 
 - `books.txt`: `isbn|title|author|total|available`
 - `members.txt`: `id|name`
-- `records.txt`: `isbn|memberId|issueDate|dueDate|returnDate`
 
 A `-` in the return date field means that the book has not been returned yet.
 
